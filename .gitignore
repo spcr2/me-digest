@@ -1,0 +1,21 @@
+# 采集输出与临时文件
+*.json
+result*.json
+latest*.json
+with_fulltext.json
+_*
+*.log
+
+# wechat-article-exporter 本地登录态 / 数据（切勿提交）
+.data/
+**/kv/cookie/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# OS
+.DS_Store
+Thumbs.db
