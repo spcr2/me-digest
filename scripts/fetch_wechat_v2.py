@@ -77,7 +77,7 @@ def parse_sogou_results(html):
                 source_match = re.search(r'<span class="all-time-y2"[^>]*>(.*?)</span>', item, re.DOTALL)
             source = re.sub(r'<[^>]+>', '', source_match.group(1)).strip() if source_match else ""
 
-            time_match = re.search(r'timeConvert\s*\(\s*[\'"]?(\d{10})[\'"]?\s*\)', item)
+            time_match = re.search(r'timeConvert\s*\(\s*[\'\"]?(\d{10})[\'\"]?\s*\)', item)
             if not time_match:
                 time_match = re.search(r'(\d{10})', item)
             published_at = ""
