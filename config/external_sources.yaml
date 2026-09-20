@@ -1,0 +1,88 @@
+# 外网一手源列表
+# 按优先级排序
+
+# 核心财经媒体
+core_media:
+  - name: Reuters Middle East
+    url: "https://www.reuters.com/world/middle-east/"
+    focus: "综合财经新闻"
+  - name: Bloomberg Middle East
+    url: "https://www.bloomberg.com/middle-east"
+    focus: "金融市场、并购"
+  - name: MEED
+    url: "https://www.meed.com/"
+    focus: "中东项目、基建、能源"
+  - name: Gulf News
+    url: "https://gulfnews.com/business"
+    focus: "阿联酋财经"
+  - name: Arab News
+    url: "https://www.arabnews.com/business"
+    focus: "沙特财经"
+  - name: The National
+    url: "https://www.thenationalnews.com/business/"
+    focus: "阿联酋财经"
+  - name: Zawya
+    url: "https://www.zawya.com/"
+    focus: "中东金融"
+  - name: Trade Arabia
+    url: "https://www.tradearabia.com/"
+    focus: "中东贸易、行业"
+
+# 官方机构
+official:
+  - name: 沙特央行 SAMA
+    url: "https://www.sama.gov.sa/"
+  - name: 沙特证监会 CMA
+    url: "https://cma.org.sa/"
+  - name: 阿联酋央行 CBUAE
+    url: "https://www.centralbank.ae/"
+  - name: 阿联酋联邦税务局 FTA
+    url: "https://tax.gov.ae/"
+  - name: 卡塔尔央行 QCB
+    url: "https://www.qcb.gov.qa/"
+  - name: 阿布扎比证交所 ADX
+    url: "https://www.adx.ae/"
+  - name: 沙特证交所 Tadawul
+    url: "https://www.tadawul.com.sa/"
+  - name: 沙特公共投资基金 PIF
+    url: "https://www.pif.gov.sa/"
+  - name: 沙特国家债务管理中心 NDMC
+    url: "https://ndmc.gov.sa/"
+  - name: 海湾合作委员会秘书处 GCC
+    url: "https://gcc-sg.org/en/MediaCenter/News/Pages/default.aspx"
+    focus: "海合会官方声明、高官会、部长级会议"
+
+# 律所简报
+law_firms:
+  - name: Allen & Overy 中东
+    url: "https://www.allenovery.com/en-gb/global/legal-updates"
+  - name: Clifford Chance 中东
+    url: "https://www.cliffordchance.com/insights.html"
+  - name: Latham & Watkins 中东
+    url: "https://www.lw.com/thoughtLeadership"
+  - name: Pinsent Masons 中东
+    url: "https://www.pinsentmasons.com/locations/middle-east"
+  - name: Al Tamimi
+    url: "https://www.tamimi.com/insights/"
+
+# 四大会计师事务所
+big4:
+  - name: PwC 中东税务
+    url: "https://www.pwc.com/m1/en/services/tax.html"
+  - name: Deloitte 中东
+    url: "https://www2.deloitte.com/ae/en.html"
+  - name: EY 中东
+    url: "https://www.ey.com/en_me"
+  - name: KPMG 中东
+    url: "https://kpmg.com/ae/en/home.html"
+
+# 中文官方源
+chinese_official:
+  - name: 新华社
+    url: "http://www.xinhuanet.com/world/"
+  - name: China Daily
+    url: "https://www.chinadaily.com.cn/world/middle_east"
+  - name: 中国驻沙特大使馆
+    type: "wechat"
+  - name: 中国驻阿联酋大使馆
+    type: "wechat"
