@@ -30,7 +30,7 @@ EXPORTER_DIR = os.environ.get(
     "WECHAT_EXPORTER_DIR", str(Path.home() / "wechat-article-exporter")
 )
 KV_COOKIE_DIR = Path(EXPORTER_DIR) / ".data" / "kv" / "cookie"
-DEFAULT_DELAY = 60
+DEFAULT_DELAY = 60  # 每个公众号之间间隔60秒
 ARTICLES_PER_ACCOUNT = 5
 
 
